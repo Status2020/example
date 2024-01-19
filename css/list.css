@@ -1,0 +1,42 @@
+@counter-style cs-extended{
+	system: extends decimal;
+	prefix: '(';
+	suffix: ') ';
+}
+@counter-style my-list{
+	system: cyclic;
+	symbols: "-" "+";
+	prefix: "";
+	suffix: "  ";
+}
+
+body{
+	background-color: lightsalmon;
+}
+p{
+	font-size: 50px;
+	text-align: center;
+	color: red;
+	background-color: pink ;
+}
+ul, ol, dl{
+	font-size: 30px;
+	color: darkmagenta;
+}
+.list1 li{
+	padding-left: 20px;
+}
+.list1 li::marker{
+	color: green;
+}
+ol{
+	margin-left: 75px;
+}
+ul.st1{
+	margin-left: 20px;
+	list-style: cs-extended;
+}
+ul.st2{
+	margin-left: 20px;
+	list-style: my-list;
+}

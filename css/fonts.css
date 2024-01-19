@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Cormorant+Infant:ital,wght@1,500&family=Lobster&family=Marck+Script&family=Pacifico&family=Pattaya&family=Rubik+Doodle+Shadow&family=Rubik+Doodle+Triangles&display=swap');
+body{
+	background-color: lightseagreen;
+}
+p{
+	font-size: 30px;
+	margin-left: 50px;
+}
+.p1{
+	color: pink;
+	background-color: lightpink;
+	background: linear-gradient(purple,violet);
+	text-align: center;
+}
+.p2{
+	font-family: 'Caveat', cursive;
+}
+.p21{
+	font-family: 'Caveat', cursive;
+	text-decoration: underline;
+	text-decoration-color: blueviolet;
+	text-decoration-style:  wavy;
+	text-underline-position: under;
+}
+.p3{
+	font-family: 'Pacifico', cursive;
+}
+.p31{
+	font-family: 'Pacifico', cursive;
+	text-decoration: underline;
+	text-decoration-color: darkblue;
+	text-decoration-style:  dashed;
+	text-underline-position: under;
+}
+.p4{
+	font-family: 'Lobster', sans-serif;
+}
+.p41{
+	font-family: 'Lobster', sans-serif;
+	font-style: italic;
+	font-weight: 700;
+}
+.p5{
+	font-family: 'Rubik Doodle Shadow', system-ui;
+}
+.p52{
+	font-family: 'Rubik Doodle Shadow', system-ui;	
+	font-weight: 900;
+	text-shadow: 0px 0px 15px gold;
+}
+.p6{
+	font-family: 'Rubik Doodle Triangles', system-ui;
+}
+.p7{
+	font-family: 'Marck Script', cursive;
+}
+.p8{
+	font-family: 'Cormorant Infant', serif;
+}
+.p81{
+	font-family: 'Cormorant Infant', serif;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+.s1{
+	font-size: 2em;
+}
+.p9{
+	font-family: 'Pattaya', sans-serif;

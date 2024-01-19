@@ -1,0 +1,28 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Cormorant+Infant:ital,wght@1,500&family=Lobster&family=Marck+Script&family=Pacifico&family=Pattaya&family=Rubik+Doodle+Shadow&family=Rubik+Doodle+Triangles&display=swap');
+
+	font-family: 'Caveat', cursive;
+	font-family: 'Pacifico', cursive;
+	font-family: 'Lobster', sans-serif;
+	font-family: 'Lobster', sans-serif;
+	font-family: 'Rubik Doodle Shadow', system-ui;
+	font-family: 'Rubik Doodle Triangles', system-ui;
+	font-family: 'Marck Script', cursive;
+	font-family: 'Cormorant Infant', serif;
+	font-family: 'Pattaya', sans-serif;
+
+	font-size: 30px;
+	margin-left: 50px;
+	background: linear-gradient(purple,violet);
+	text-align: center;
+	text-decoration: underline;
+	text-decoration-color: blueviolet;
+	text-decoration-style:  wavy;
+	text-underline-position: under;
+	font-style: italic;
+	font-weight: 700;
+	text-shadow: 0px 0px 15px gold;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-size: 2em;
+

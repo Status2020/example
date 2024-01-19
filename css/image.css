@@ -1,0 +1,37 @@
+body{
+	background-color: yellowgreen;
+	background-image: url(https://cdn.pixabay.com/animation/2023/11/29/03/39/03-39-03-19_512.gif);
+	background-repeat: no-repeat;
+	background-position: 100% 100%;
+	background-attachment: fixed;
+	background-size: 200px;
+}
+p{
+	font-size: 0.5in;
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEi0Mw7wKTgfh-ox6s-HH9aY1FCoiUXpDSGg&usqp=CAU);
+	background-size: cover;
+	color: silver; 
+	font-family: Caveat,Kablammo,Pacifico,cursive;
+	text-align: center;
+	text-shadow: 3px -3px 5px orange, 7px -7px 16px darkred;
+}
+.im1{
+	width: 20%;
+	margin: auto;
+	display: block;
+	border-radius: 50%;
+	box-shadow: 10px -20px 100px goldenrod;
+}
+.im2{
+	width: 250px;
+	border: ridge 10px purple;
+	margin: 20px;
+}
+.d1{
+	background-image: url(https://images.pexels.com/photos/1191710/pexels-photo-1191710.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+	width: 250px;
+	height: 150px;
+	border: groove 10px purple;
+	background-size: cover;
+	margin: 20px;
+}

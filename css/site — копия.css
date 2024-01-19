@@ -1,0 +1,28 @@
+body{
+	background-color: lightpink;
+}
+header{
+	height: 200px;
+	background-color: blueviolet;
+}
+nav,aside {
+	width: 20%;
+	background-color: lightcoral;
+	float: left;	/*обтікання зліва, убираем зазор*/
+}
+main{
+	width: 60%;
+	background-color: lightskyblue;
+	float: left;
+}
+footer{
+	height: 150px;
+	background-color: gold;
+	/*clear: both /*очистка*/
+}
+h1{
+	text-align: center;
+}
+h2{
+	text-align: center;
+}

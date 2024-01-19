@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            background-color: #333; /* Цвет фона блока nav */
+            color: #fff; /* Цвет текста в блоке nav */
+            padding: 10px; /* Внутренний отступ блока nav */
+            box-sizing: border-box; /* Учитываем padding в общей ширине блока */
+            width: 100%; /* Ширина блока по умолчанию (если окно меньше 800 пикселей) */
+        }
+
+        @media only screen and (min-width: 800px) {
+            nav {
+                width: 30%; /* Ширина блока, если окно больше 800 пикселей */
+            }
+        }
+    </style>
+    <title>Adaptive Navigation</title>
+</head>
+<body>
+
+    <nav>
+        <!-- Содержимое блока nav -->
+        <ul>
+            <li><a href="#">Ссылка 1</a></li>
+            <li><a href="#">Ссылка 2</a></li>
+            <li><a href="#">Ссылка 3</a></li>
+        </ul>
+    </nav>
+
+    <!-- Остальное содержимое страницы -->
+
+</body>
+</html>
